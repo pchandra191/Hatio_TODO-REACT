@@ -1,0 +1,6 @@
+.SelectProjects{
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+    justify-content: center;
+}

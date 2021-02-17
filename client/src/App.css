@@ -1,0 +1,42 @@
+
+.Container {
+  padding: 20px 80px 60px 80px;
+  font-weight: 200;
+  font-size: larger;
+}
+
+.ShowProjects {
+display: flex;
+    flex-direction: row;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.UploadGist {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: right;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.bg {
+  width: auto;
+  height: auto;
+  background-image: url(./assets/background/blob-small.svg),
+    url(./assets/background/circle.svg),
+    url(./assets/background/accounting_dots.svg),
+    url(./assets/background/sol_wave_bg.svg);
+  background-repeat: no-repeat;
+  background-size: 200px, 750px, 400px, 1800px;
+  background-position: -80px 200px, 1010px -220px, 500px bottom, right 500px;
+}
+
+.else {
+  padding: 10%;
+}
+
+/* .ShowPending{
+    width: 400px;
+    height: 400px;
+} */
