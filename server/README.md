@@ -3,7 +3,7 @@
 ## Install NPM 
 
 Run CMD,
-Navigate inside the root folder
+Navigate inside the server folder
 Run `npm install` 
 
 ## Development server
