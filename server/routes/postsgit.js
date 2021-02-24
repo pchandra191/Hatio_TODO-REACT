@@ -30,10 +30,10 @@ router.put("/postsgit/:id", jsonParser, updateStatus);
 router.delete("/postsgitDelete/:id", jsonParser, gitdeletePost);
 
 async function githubValidation(req, res, next) {
-  const clientId = "e8c7b00d40dddc513d97";
+  const clientId = "get from github";
   const requestToken = req.query.code;
   let token = "";
-  const clientSecret = "21a8e81baeee5ac5538ec5cd560e769e3cf6f39a";
+  const clientSecret = "get from github";
 
   const body = {
     client_id: clientId,
