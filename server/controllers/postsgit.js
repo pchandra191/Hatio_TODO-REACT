@@ -6,7 +6,7 @@ import Projects from "../models/postMessage.js";
 export const gistInfo = async (req, res) => {
   try {
     const octokit = new Octokit({
-      auth: "a5d768bf48ae148ace450da51347bfb4fbc4da85",
+      auth: " pass token here ",
     });
     const getInfo = await octokit.request("/gists");
     console.log("info", getInfo);
