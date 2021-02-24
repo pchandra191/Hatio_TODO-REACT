@@ -95,7 +95,7 @@ export const gitdeletePost = async (req, res) => {
 export const githubLogin = async (req, res, next) => {
   //GitHub OAuth
   console.log("oauth");
-  const clientId = "e8c7b00d40dddc513d97";
+  const clientId = "get from github";
   res.redirect(
     `https://github.com/login/oauth/authorize?client_id=${clientId}&scope=gist user`
   );
@@ -107,7 +107,7 @@ export const githubLogin = async (req, res, next) => {
 // var a = [];
 // export const githubLoginRDT = async (req, res, next) => {
 //   //GitHub OAuth
-//   //  const clientId = "e8c7b00d40dddc513d97";
+//   //  const clientId = "get from github";
 
 //   console.log("redirecting", req.query.code);
 //    a += req.query.code
