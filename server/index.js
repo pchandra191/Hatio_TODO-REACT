@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const CONNECTION_URL =
-  "mongodb+srv://hatio:hatio123@cluster0.wzay9.mongodb.net/hatio?retryWrites=true&w=majority";
+  "enter cluster URL";
 const PORT = process.env.PORT || 5000;
 
 //Init Mongo
